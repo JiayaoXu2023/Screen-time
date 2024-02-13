@@ -1,716 +1,122 @@
-**PDISM PDISH bully PALDR PDRUG MH PFORC PFCIN
-mi estimate, or: svy:logit FCINT i.PDISM i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit FCINT i.PDISH i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit FCINT i.bully i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit FCINT i.PALDR i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit FCINT i.PDRUG i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit FCINT i.MH i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit FCINT i.PFORC i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit FCINT i.PFCIN i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit FCINT i.ACEGROUP3 i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit FCINT i.DOEDP i.FCCSEX00 i.FDCE2 
-
-mi estimate, or: svy:logit FCTVH i.PDISM i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit FCTVH i.PDISH i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit FCTVH i.bully i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit FCTVH i.PALDR i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit FCTVH i.PDRUG i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit FCTVH i.MH i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit FCTVH i.PFORC i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit FCTVH i.PFCIN i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit FCTVH i.ACEGROUP3 i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit FCTVH i.DOEDP i.FCCSEX00 i.FDCE2 
-
-mi estimate, or: svy:logit FCCOM i.PDISM i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit FCCOM i.PDISH i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit FCCOM i.bully i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit FCCOM i.PALDR i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit FCCOM i.PDRUG i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit FCCOM i.MH i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit FCCOM i.PFORC i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit FCCOM i.PFCIN i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit FCCOM i.ACEGROUP3 i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit FCCOM i.DOEDP i.FCCSEX00 i.FDCE2 
-
-mi estimate, or: svy:logit FCSOM i.PDISM i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit FCSOM i.PDISH i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit FCSOM i.bully i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit FCSOM i.PALDR i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit FCSOM i.PDRUG i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit FCSOM i.MH i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit FCSOM i.PFORC i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit FCSOM i.PFCIN i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit FCSOM i.ACEGROUP3 i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit FCSOM i.DOEDP i.FCCSEX00 i.FDCE2 
-
-mi estimate, or: svy:logit GCTVH i.PDISM i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit GCTVH i.PDISH i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit GCTVH i.bully i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit GCTVH i.PALDR i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit GCTVH i.PDRUG i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit GCTVH i.MH i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit GCTVH i.PFORC i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit GCTVH i.PFCIN i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit GCTVH i.ACEGROUP3 i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit GCTVH i.DOEDP i.FCCSEX00 i.FDCE2 
-
-mi estimate, or: svy:logit GCCOM i.PDISM i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit GCCOM i.PDISH i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit GCCOM i.bully i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit GCCOM i.PALDR i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit GCCOM i.PDRUG i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit GCCOM i.MH i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit GCCOM i.PFORC i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit GCCOM i.PFCIN i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit GCCOM i.ACEGROUP3 i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit GCCOM i.DOEDP i.FCCSEX00 i.FDCE2 
-
-mi estimate, or: svy:logit GCSOM i.PDISM i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit GCSOM i.PDISH i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit GCSOM i.bully i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit GCSOM i.PALDR i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit GCSOM i.PDRUG i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit GCSOM i.MH i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit GCSOM i.PFORC i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit GCSOM i.PFCIN i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit GCSOM i.ACEGROUP3 i.FCCSEX00 i.FDCE2 i.ADOEDP00
-mi estimate, or: svy:logit GCSOM i.DOEDP i.FCCSEX00 i.FDCE2 
-
-
-**PDISM PDISH bully PALDR PDRUG MH PFORC PFCIN  **ADOEDP00 FDNVQ6 DD05SS DROOW
-mi estimate, or: svy:logit FCINT i.PDISM i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit FCINT i.PDISH i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit FCINT i.bully i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit FCINT i.PALDR i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit FCINT i.PDRUG i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit FCINT i.MH i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit FCINT i.PFORC i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit FCINT i.PFCIN i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit FCINT i.ACEGROUP3 i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit FCINT i.DOEDP i.FCCSEX00 i.FDCE2 i.FDNVQ6 i.DD05SS i.DROOW
-
-mi estimate, or: svy:logit FCTVH i.PDISM i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit FCTVH i.PDISH i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit FCTVH i.bully i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit FCTVH i.PALDR i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit FCTVH i.PDRUG i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit FCTVH i.MH i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit FCTVH i.PFORC i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit FCTVH i.PFCIN i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit FCTVH i.ACEGROUP3 i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit FCTVH i.DOEDP i.FCCSEX00 i.FDCE2  i.FDNVQ6 i.DD05SS i.DROOW
-
-mi estimate, or: svy:logit FCCOM i.PDISM i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit FCCOM i.PDISH i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit FCCOM i.bully i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit FCCOM i.PALDR i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit FCCOM i.PDRUG i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit FCCOM i.MH i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit FCCOM i.PFORC i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit FCCOM i.PFCIN i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit FCCOM i.ACEGROUP3 i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit FCCOM i.DOEDP i.FCCSEX00 i.FDCE2  i.FDNVQ6 i.DD05SS i.DROOW
-
-mi estimate, or: svy:logit FCSOM i.PDISM i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit FCSOM i.PDISH i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit FCSOM i.bully i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit FCSOM i.PALDR i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit FCSOM i.PDRUG i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit FCSOM i.MH i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit FCSOM i.PFORC i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit FCSOM i.PFCIN i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit FCSOM i.ACEGROUP3 i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit FCSOM i.DOEDP i.FCCSEX00 i.FDCE2  i.FDNVQ6 i.DD05SS i.DROOW
-
-mi estimate, or: svy:logit GCTVH i.PDISM i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit GCTVH i.PDISH i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit GCTVH i.bully i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit GCTVH i.PALDR i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit GCTVH i.PDRUG i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit GCTVH i.MH i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit GCTVH i.PFORC i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit GCTVH i.PFCIN i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit GCTVH i.ACEGROUP3 i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit GCTVH i.DOEDP i.FCCSEX00 i.FDCE2  i.FDNVQ6 i.DD05SS i.DROOW
-
-mi estimate, or: svy:logit GCCOM i.PDISM i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit GCCOM i.PDISH i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit GCCOM i.bully i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit GCCOM i.PALDR i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit GCCOM i.PDRUG i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit GCCOM i.MH i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit GCCOM i.PFORC i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit GCCOM i.PFCIN i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit GCCOM i.ACEGROUP3 i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit GCCOM i.DOEDP i.FCCSEX00 i.FDCE2  i.FDNVQ6 i.DD05SS i.DROOW
-
-mi estimate, or: svy:logit GCSOM i.PDISM i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit GCSOM i.PDISH i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit GCSOM i.bully i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit GCSOM i.PALDR i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit GCSOM i.PDRUG i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit GCSOM i.MH i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit GCSOM i.PFORC i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit GCSOM i.PFCIN i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit GCSOM i.ACEGROUP3 i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
-mi estimate, or: svy:logit GCSOM i.DOEDP i.FCCSEX00 i.FDCE2  i.FDNVQ6 i.DD05SS i.DROOW
-
-
-
 mi svyset SPTN00 [pweight=WEIGHT2], strata(PTTYPE2) fpc(NH2)
 
-mi estimate, dots post: svy:logit FCINT i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.ACEGROUP3
+**PDISM PDISH bully PALDR PDRUG MH PFORC PFCIN
+foreach ACE in i.PDISM i.PDISH i.bully i.PALDR i.PDRUG i.MH i.PFORC i.PFCIN i.ACEGROUP3 {
+mi estimate, or: svy:logit FCINT 'ACE' i.FCCSEX00 i.FDCE2 i.ADOEDP00}
+
+foreach ACE in i.PDISM i.PDISH i.bully i.PALDR i.PDRUG i.MH i.PFORC i.PFCIN i.ACEGROUP3 {
+mi estimate, or: svy:logit FCTVH 'ACE' i.FCCSEX00 i.FDCE2 i.ADOEDP00}
+
+foreach ACE in i.PDISM i.PDISH i.bully i.PALDR i.PDRUG i.MH i.PFORC i.PFCIN i.ACEGROUP3 {
+mi estimate, or: svy:logit FCCOM 'ACE' i.FCCSEX00 i.FDCE2 i.ADOEDP00}
+
+foreach ACE in i.PDISM i.PDISH i.bully i.PALDR i.PDRUG i.MH i.PFORC i.PFCIN i.ACEGROUP3 {
+mi estimate, or: svy:logit FCSOM 'ACE' i.FCCSEX00 i.FDCE2 i.ADOEDP00}
+
+foreach ACE in i.PDISM i.PDISH i.bully i.PALDR i.PDRUG i.MH i.PFORC i.PFCIN i.ACEGROUP3 {
+mi estimate, or: svy:logit GCTVH 'ACE' i.FCCSEX00 i.FDCE2 i.ADOEDP00}
+
+foreach ACE in i.PDISM i.PDISH i.bully i.PALDR i.PDRUG i.MH i.PFORC i.PFCIN i.ACEGROUP3 {
+mi estimate, or: svy:logit GCCOM 'ACE' i.FCCSEX00 i.FDCE2 i.ADOEDP00}
+
+foreach ACE in i.PDISM i.PDISH i.bully i.PALDR i.PDRUG i.MH i.PFORC i.PFCIN i.ACEGROUP3 {
+mi estimate, or: svy:logit GCSOM 'ACE' i.FCCSEX00 i.FDCE2 i.ADOEDP00}
+
+**PDISM PDISH bully PALDR PDRUG MH PFORC PFCIN  **ADOEDP00 FDNVQ6 DD05SS DROOW
+foreach ACE in i.PDISM i.PDISH i.bully i.PALDR i.PDRUG i.MH i.PFORC i.PFCIN i.ACEGROUP3 {
+mi estimate, or: svy:logit FCINT 'ACE' i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW}
+
+foreach ACE in i.PDISM i.PDISH i.bully i.PALDR i.PDRUG i.MH i.PFORC i.PFCIN i.ACEGROUP3 {
+mi estimate, or: svy:logit FCTVH 'ACE' i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW}
+
+foreach ACE in i.PDISM i.PDISH i.bully i.PALDR i.PDRUG i.MH i.PFORC i.PFCIN i.ACEGROUP3 {
+mi estimate, or: svy:logit FCCOM 'ACE' i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW}
+
+foreach ACE in i.PDISM i.PDISH i.bully i.PALDR i.PDRUG i.MH i.PFORC i.PFCIN i.ACEGROUP3 {
+mi estimate, or: svy:logit FCSOM 'ACE' i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW}
+
+foreach ACE in i.PDISM i.PDISH i.bully i.PALDR i.PDRUG i.MH i.PFORC i.PFCIN i.ACEGROUP3 {
+mi estimate, or: svy:logit GCTVH 'ACE' i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW}
+
+foreach ACE in i.PDISM i.PDISH i.bully i.PALDR i.PDRUG i.MH i.PFORC i.PFCIN i.ACEGROUP3 {
+mi estimate, or: svy:logit GCCOM 'ACE' i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW}
+
+foreach ACE in i.PDISM i.PDISH i.bully i.PALDR i.PDRUG i.MH i.PFORC i.PFCIN i.ACEGROUP3 {
+mi estimate, or: svy:logit GCSOM 'ACE' i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW}
+
+foreach ST in FCINT FCTVH FCCOM FCSOM GCTVH GCCOM GCSOM{
+mi estimate, dots post: svy:logit 'ST' i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.ACEGROUP3
 lincom 1.ACEGROUP3+ 1.ACEGROUP3#1.FCCSEX00, or
 lincom 2.ACEGROUP3+ 2.ACEGROUP3#1.FCCSEX00, or
 lincom 3.ACEGROUP3+ 3.ACEGROUP3#1.FCCSEX00, or
 lincom 1.ACEGROUP3+ 1.ACEGROUP3#2.FCCSEX00, or
 lincom 2.ACEGROUP3+ 2.ACEGROUP3#2.FCCSEX00, or
-lincom 3.ACEGROUP3+ 3.ACEGROUP3#2.FCCSEX00, or
+lincom 3.ACEGROUP3+ 3.ACEGROUP3#2.FCCSEX00, or}
 
-mi estimate, dots post: svy:logit FCTVH i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.ACEGROUP3
-lincom 1.ACEGROUP3+ 1.ACEGROUP3#1.FCCSEX00, or
-lincom 2.ACEGROUP3+ 2.ACEGROUP3#1.FCCSEX00, or
-lincom 3.ACEGROUP3+ 3.ACEGROUP3#1.FCCSEX00, or
-lincom 1.ACEGROUP3+ 1.ACEGROUP3#2.FCCSEX00, or
-lincom 2.ACEGROUP3+ 2.ACEGROUP3#2.FCCSEX00, or
-lincom 3.ACEGROUP3+ 3.ACEGROUP3#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit FCCOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.ACEGROUP3
-lincom 1.ACEGROUP3+ 1.ACEGROUP3#1.FCCSEX00, or
-lincom 2.ACEGROUP3+ 2.ACEGROUP3#1.FCCSEX00, or
-lincom 3.ACEGROUP3+ 3.ACEGROUP3#1.FCCSEX00, or
-lincom 1.ACEGROUP3+ 1.ACEGROUP3#2.FCCSEX00, or
-lincom 2.ACEGROUP3+ 2.ACEGROUP3#2.FCCSEX00, or
-lincom 3.ACEGROUP3+ 3.ACEGROUP3#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit FCSOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.ACEGROUP3
-lincom 1.ACEGROUP3+ 1.ACEGROUP3#1.FCCSEX00, or
-lincom 2.ACEGROUP3+ 2.ACEGROUP3#1.FCCSEX00, or
-lincom 3.ACEGROUP3+ 3.ACEGROUP3#1.FCCSEX00, or
-lincom 1.ACEGROUP3+ 1.ACEGROUP3#2.FCCSEX00, or
-lincom 2.ACEGROUP3+ 2.ACEGROUP3#2.FCCSEX00, or
-lincom 3.ACEGROUP3+ 3.ACEGROUP3#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit GCTVH i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.ACEGROUP3
-lincom 1.ACEGROUP3+ 1.ACEGROUP3#1.FCCSEX00, or
-lincom 2.ACEGROUP3+ 2.ACEGROUP3#1.FCCSEX00, or
-lincom 3.ACEGROUP3+ 3.ACEGROUP3#1.FCCSEX00, or
-lincom 1.ACEGROUP3+ 1.ACEGROUP3#2.FCCSEX00, or
-lincom 2.ACEGROUP3+ 2.ACEGROUP3#2.FCCSEX00, or
-lincom 3.ACEGROUP3+ 3.ACEGROUP3#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit GCCOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.ACEGROUP3
-lincom 1.ACEGROUP3+ 1.ACEGROUP3#1.FCCSEX00, or
-lincom 2.ACEGROUP3+ 2.ACEGROUP3#1.FCCSEX00, or
-lincom 3.ACEGROUP3+ 3.ACEGROUP3#1.FCCSEX00, or
-lincom 1.ACEGROUP3+ 1.ACEGROUP3#2.FCCSEX00, or
-lincom 2.ACEGROUP3+ 2.ACEGROUP3#2.FCCSEX00, or
-lincom 3.ACEGROUP3+ 3.ACEGROUP3#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit GCSOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.ACEGROUP3
-lincom 1.ACEGROUP3+ 1.ACEGROUP3#1.FCCSEX00, or
-lincom 2.ACEGROUP3+ 2.ACEGROUP3#1.FCCSEX00, or
-lincom 3.ACEGROUP3+ 3.ACEGROUP3#1.FCCSEX00, or
-lincom 1.ACEGROUP3+ 1.ACEGROUP3#2.FCCSEX00, or
-lincom 2.ACEGROUP3+ 2.ACEGROUP3#2.FCCSEX00, or
-lincom 3.ACEGROUP3+ 3.ACEGROUP3#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit FCINT i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDISM
+foreach ST in FCINT FCTVH FCCOM FCSOM GCTVH GCCOM GCSOM{
+mi estimate, dots post: svy:logit 'ST' i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDISM
 lincom 1.PDISM+ 1.PDISM#1.FCCSEX00, or
-lincom 1.PDISM+ 1.PDISM#2.FCCSEX00, or
+lincom 1.PDISM+ 1.PDISM#2.FCCSEX00, or}
 
-mi estimate, dots post: svy:logit FCTVH i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDISM
-lincom 1.PDISM+ 1.PDISM#1.FCCSEX00, or
-lincom 1.PDISM+ 1.PDISM#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit FCCOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDISM
-lincom 1.PDISM+ 1.PDISM#1.FCCSEX00, or
-lincom 1.PDISM+ 1.PDISM#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit FCSOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDISM
-lincom 1.PDISM+ 1.PDISM#1.FCCSEX00, or
-lincom 1.PDISM+ 1.PDISM#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit GCTVH i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDISM
-lincom 1.PDISM+ 1.PDISM#1.FCCSEX00, or
-lincom 1.PDISM+ 1.PDISM#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit GCCOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDISM
-lincom 1.PDISM+ 1.PDISM#1.FCCSEX00, or
-lincom 1.PDISM+ 1.PDISM#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit GCSOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDISM
-lincom 1.PDISM+ 1.PDISM#1.FCCSEX00, or
-lincom 1.PDISM+ 1.PDISM#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit FCINT i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDISH
+foreach ST in FCINT FCTVH FCCOM FCSOM GCTVH GCCOM GCSOM{
+mi estimate, dots post: svy:logit 'ST' i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDISH
 lincom 1.PDISH+ 1.PDISH#1.FCCSEX00, or
-lincom 1.PDISH+ 1.PDISH#2.FCCSEX00, or
+lincom 1.PDISH+ 1.PDISH#2.FCCSEX00, or}
 
-mi estimate, dots post: svy:logit FCTVH i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDISH
-lincom 1.PDISH+ 1.PDISH#1.FCCSEX00, or
-lincom 1.PDISH+ 1.PDISH#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit FCCOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDISH
-lincom 1.PDISH+ 1.PDISH#1.FCCSEX00, or
-lincom 1.PDISH+ 1.PDISH#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit FCSOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDISH
-lincom 1.PDISH+ 1.PDISH#1.FCCSEX00, or
-lincom 1.PDISH+ 1.PDISH#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit GCTVH i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDISH
-lincom 1.PDISH+ 1.PDISH#1.FCCSEX00, or
-lincom 1.PDISH+ 1.PDISH#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit GCCOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDISH
-lincom 1.PDISH+ 1.PDISH#1.FCCSEX00, or
-lincom 1.PDISH+ 1.PDISH#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit GCSOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDISH
-lincom 1.PDISH+ 1.PDISH#1.FCCSEX00, or
-lincom 1.PDISH+ 1.PDISH#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit FCINT i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.bully
+foreach ST in FCINT FCTVH FCCOM FCSOM GCTVH GCCOM GCSOM{
+mi estimate, dots post: svy:logit 'ST' i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.bully
 lincom 1.bully+ 1.bully#1.FCCSEX00, or
-lincom 1.bully+ 1.bully#2.FCCSEX00, or
+lincom 1.bully+ 1.bully#2.FCCSEX00, or}
 
-mi estimate, dots post: svy:logit FCTVH i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.bully
-lincom 1.bully+ 1.bully#1.FCCSEX00, or
-lincom 1.bully+ 1.bully#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit FCCOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.bully
-lincom 1.bully+ 1.bully#1.FCCSEX00, or
-lincom 1.bully+ 1.bully#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit FCSOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.bully
-lincom 1.bully+ 1.bully#1.FCCSEX00, or
-lincom 1.bully+ 1.bully#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit GCTVH i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.bully
-lincom 1.bully+ 1.bully#1.FCCSEX00, or
-lincom 1.bully+ 1.bully#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit GCCOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.bully
-lincom 1.bully+ 1.bully#1.FCCSEX00, or
-lincom 1.bully+ 1.bully#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit GCSOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.bully
-lincom 1.bully+ 1.bully#1.FCCSEX00, or
-lincom 1.bully+ 1.bully#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit FCINT i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PALDR
+foreach ST in FCINT FCTVH FCCOM FCSOM GCTVH GCCOM GCSOM{
+mi estimate, dots post: svy:logit 'ST' i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PALDR
 lincom 1.PALDR+ 1.PALDR#1.FCCSEX00, or
-lincom 1.PALDR+ 1.PALDR#2.FCCSEX00, or
+lincom 1.PALDR+ 1.PALDR#2.FCCSEX00, or}
 
-mi estimate, dots post: svy:logit FCTVH i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PALDR
-lincom 1.PALDR+ 1.PALDR#1.FCCSEX00, or
-lincom 1.PALDR+ 1.PALDR#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit FCCOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PALDR
-lincom 1.PALDR+ 1.PALDR#1.FCCSEX00, or
-lincom 1.PALDR+ 1.PALDR#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit FCSOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PALDR
-lincom 1.PALDR+ 1.PALDR#1.FCCSEX00, or
-lincom 1.PALDR+ 1.PALDR#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit GCTVH i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PALDR
-lincom 1.PALDR+ 1.PALDR#1.FCCSEX00, or
-lincom 1.PALDR+ 1.PALDR#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit GCCOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PALDR
-lincom 1.PALDR+ 1.PALDR#1.FCCSEX00, or
-lincom 1.PALDR+ 1.PALDR#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit GCSOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PALDR
-lincom 1.PALDR+ 1.PALDR#1.FCCSEX00, or
-lincom 1.PALDR+ 1.PALDR#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit FCINT i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDRUG
+foreach ST in FCINT FCTVH FCCOM FCSOM GCTVH GCCOM GCSOM{
+mi estimate, dots post: svy:logit 'ST' i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDRUG
 lincom 1.PDRUG+ 1.PDRUG#1.FCCSEX00, or
-lincom 1.PDRUG+ 1.PDRUG#2.FCCSEX00, or
+lincom 1.PDRUG+ 1.PDRUG#2.FCCSEX00, or}
 
-mi estimate, dots post: svy:logit FCTVH i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDRUG
-lincom 1.PDRUG+ 1.PDRUG#1.FCCSEX00, or
-lincom 1.PDRUG+ 1.PDRUG#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit FCCOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDRUG
-lincom 1.PDRUG+ 1.PDRUG#1.FCCSEX00, or
-lincom 1.PDRUG+ 1.PDRUG#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit FCSOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDRUG
-lincom 1.PDRUG+ 1.PDRUG#1.FCCSEX00, or
-lincom 1.PDRUG+ 1.PDRUG#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit GCTVH i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDRUG
-lincom 1.PDRUG+ 1.PDRUG#1.FCCSEX00, or
-lincom 1.PDRUG+ 1.PDRUG#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit GCCOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDRUG
-lincom 1.PDRUG+ 1.PDRUG#1.FCCSEX00, or
-lincom 1.PDRUG+ 1.PDRUG#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit GCSOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDRUG
-lincom 1.PDRUG+ 1.PDRUG#1.FCCSEX00, or
-lincom 1.PDRUG+ 1.PDRUG#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit FCINT i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.MH
+foreach ST in FCINT FCTVH FCCOM FCSOM GCTVH GCCOM GCSOM{
+mi estimate, dots post: svy:logit 'ST' i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.MH
 lincom 1.MH+ 1.MH#1.FCCSEX00, or
-lincom 1.MH+ 1.MH#2.FCCSEX00, or
+lincom 1.MH+ 1.MH#2.FCCSEX00, or}
 
-mi estimate, dots post: svy:logit FCTVH i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.MH
-lincom 1.MH+ 1.MH#1.FCCSEX00, or
-lincom 1.MH+ 1.MH#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit FCCOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.MH
-lincom 1.MH+ 1.MH#1.FCCSEX00, or
-lincom 1.MH+ 1.MH#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit FCSOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.MH
-lincom 1.MH+ 1.MH#1.FCCSEX00, or
-lincom 1.MH+ 1.MH#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit GCTVH i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.MH
-lincom 1.MH+ 1.MH#1.FCCSEX00, or
-lincom 1.MH+ 1.MH#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit GCCOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.MH
-lincom 1.MH+ 1.MH#1.FCCSEX00, or
-lincom 1.MH+ 1.MH#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit GCSOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.MH
-lincom 1.MH+ 1.MH#1.FCCSEX00, or
-lincom 1.MH+ 1.MH#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit FCINT i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PFORC
+foreach ST in FCINT FCTVH FCCOM FCSOM GCTVH GCCOM GCSOM{
+mi estimate, dots post: svy:logit 'ST' i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PFORC
 lincom 1.PFORC+ 1.PFORC#1.FCCSEX00, or
-lincom 1.PFORC+ 1.PFORC#2.FCCSEX00, or
+lincom 1.PFORC+ 1.PFORC#2.FCCSEX00, or}
 
-mi estimate, dots post: svy:logit FCTVH i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PFORC
-lincom 1.PFORC+ 1.PFORC#1.FCCSEX00, or
-lincom 1.PFORC+ 1.PFORC#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit FCCOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PFORC
-lincom 1.PFORC+ 1.PFORC#1.FCCSEX00, or
-lincom 1.PFORC+ 1.PFORC#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit FCSOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PFORC
-lincom 1.PFORC+ 1.PFORC#1.FCCSEX00, or
-lincom 1.PFORC+ 1.PFORC#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit GCTVH i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PFORC
-lincom 1.PFORC+ 1.PFORC#1.FCCSEX00, or
-lincom 1.PFORC+ 1.PFORC#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit GCCOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PFORC
-lincom 1.PFORC+ 1.PFORC#1.FCCSEX00, or
-lincom 1.PFORC+ 1.PFORC#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit GCSOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PFORC
-lincom 1.PFORC+ 1.PFORC#1.FCCSEX00, or
-lincom 1.PFORC+ 1.PFORC#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit FCINT i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PFCIN
+foreach ST in FCINT FCTVH FCCOM FCSOM GCTVH GCCOM GCSOM{
+mi estimate, dots post: svy:logit 'ST' i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PFCIN
 lincom 1.PFCIN+ 1.PFCIN#1.FCCSEX00, or
-lincom 1.PFCIN+ 1.PFCIN#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit FCTVH i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PFCIN
-lincom 1.PFCIN+ 1.PFCIN#1.FCCSEX00, or
-lincom 1.PFCIN+ 1.PFCIN#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit FCCOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PFCIN
-lincom 1.PFCIN+ 1.PFCIN#1.FCCSEX00, or
-lincom 1.PFCIN+ 1.PFCIN#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit FCSOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PFCIN
-lincom 1.PFCIN+ 1.PFCIN#1.FCCSEX00, or
-lincom 1.PFCIN+ 1.PFCIN#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit GCTVH i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PFCIN
-lincom 1.PFCIN+ 1.PFCIN#1.FCCSEX00, or
-lincom 1.PFCIN+ 1.PFCIN#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit GCCOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PFCIN
-lincom 1.PFCIN+ 1.PFCIN#1.FCCSEX00, or
-lincom 1.PFCIN+ 1.PFCIN#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit GCSOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PFCIN
-lincom 1.PFCIN+ 1.PFCIN#1.FCCSEX00, or
-lincom 1.PFCIN+ 1.PFCIN#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit FCINT i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.DOEDP
-lincom 1.DOEDP+ 1.DOEDP#1.FCCSEX00, or
-lincom 1.DOEDP+ 1.DOEDP#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit FCTVH i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.DOEDP
-lincom 1.DOEDP+ 1.DOEDP#1.FCCSEX00, or
-lincom 1.DOEDP+ 1.DOEDP#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit FCCOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.DOEDP
-lincom 1.DOEDP+ 1.DOEDP#1.FCCSEX00, or
-lincom 1.DOEDP+ 1.DOEDP#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit FCSOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.DOEDP
-lincom 1.DOEDP+ 1.DOEDP#1.FCCSEX00, or
-lincom 1.DOEDP+ 1.DOEDP#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit GCTVH i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.DOEDP
-lincom 1.DOEDP+ 1.DOEDP#1.FCCSEX00, or
-lincom 1.DOEDP+ 1.DOEDP#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit GCCOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.DOEDP
-lincom 1.DOEDP+ 1.DOEDP#1.FCCSEX00, or
-lincom 1.DOEDP+ 1.DOEDP#2.FCCSEX00, or
-
-mi estimate, dots post: svy:logit GCSOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.DOEDP
-lincom 1.DOEDP+ 1.DOEDP#1.FCCSEX00, or
-lincom 1.DOEDP+ 1.DOEDP#2.FCCSEX00, or
+lincom 1.PFCIN+ 1.PFCIN#2.FCCSEX00, or}
 
 **PDISM PDISH bully PALDR PDRUG MH PFORC PFCIN ACEGROUP3 DOEDP
+foreach ST in FCINT FCTVH FCCOM FCSOM GCTVH GCCOM GCSOM{
+mi estimate, or: svy:logit ST i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.ACEGROUP3}
 
-mi estimate, or: svy:logit FCINT i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.ACEGROUP3
-mi estimate, or: svy:logit FCTVH i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.ACEGROUP3
-mi estimate, or: svy:logit FCCOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.ACEGROUP3
-mi estimate, or: svy:logit FCSOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.ACEGROUP3
-mi estimate, or: svy:logit GCTVH i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.ACEGROUP3
-mi estimate, or: svy:logit GCCOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.ACEGROUP3
-mi estimate, or: svy:logit GCSOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.ACEGROUP3
+foreach ST in FCINT FCTVH FCCOM FCSOM GCTVH GCCOM GCSOM{
+mi estimate, or: svy:logit ST i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDISM}
 
-mi estimate, or: svy:logit FCINT i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDISM
-mi estimate, or: svy:logit FCTVH i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDISM
-mi estimate, or: svy:logit FCCOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDISM
-mi estimate, or: svy:logit FCSOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDISM
-mi estimate, or: svy:logit GCTVH i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDISM
-mi estimate, or: svy:logit GCCOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDISM
-mi estimate, or: svy:logit GCSOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDISM
+foreach ST in FCINT FCTVH FCCOM FCSOM GCTVH GCCOM GCSOM{
+mi estimate, or: svy:logit ST i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDISH}
 
-mi estimate, or: svy:logit FCINT i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDISH
-mi estimate, or: svy:logit FCTVH i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDISH
-mi estimate, or: svy:logit FCCOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDISH
-mi estimate, or: svy:logit FCSOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDISH
-mi estimate, or: svy:logit GCTVH i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDISH
-mi estimate, or: svy:logit GCCOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDISH
-mi estimate, or: svy:logit GCSOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDISH
+foreach ST in FCINT FCTVH FCCOM FCSOM GCTVH GCCOM GCSOM{
+mi estimate, or: svy:logit ST i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.bully}
 
-mi estimate, or: svy:logit FCINT i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.bully
-mi estimate, or: svy:logit FCTVH i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.bully
-mi estimate, or: svy:logit FCCOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.bully
-mi estimate, or: svy:logit FCSOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.bully
-mi estimate, or: svy:logit GCTVH i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.bully
-mi estimate, or: svy:logit GCCOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.bully
-mi estimate, or: svy:logit GCSOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.bully
+foreach ST in FCINT FCTVH FCCOM FCSOM GCTVH GCCOM GCSOM{
+mi estimate, or: svy:logit ST i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PALDR}
 
-mi estimate, or: svy:logit FCINT i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PALDR
-mi estimate, or: svy:logit FCTVH i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PALDR
-mi estimate, or: svy:logit FCCOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PALDR
-mi estimate, or: svy:logit FCSOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PALDR
-mi estimate, or: svy:logit GCTVH i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PALDR
-mi estimate, or: svy:logit GCCOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PALDR
-mi estimate, or: svy:logit GCSOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PALDR
+foreach ST in FCINT FCTVH FCCOM FCSOM GCTVH GCCOM GCSOM{
+mi estimate, or: svy:logit ST i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDRUG}
 
-mi estimate, or: svy:logit FCINT i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDRUG
-mi estimate, or: svy:logit FCTVH i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDRUG
-mi estimate, or: svy:logit FCCOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDRUG
-mi estimate, or: svy:logit FCSOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDRUG
-mi estimate, or: svy:logit GCTVH i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDRUG
-mi estimate, or: svy:logit GCCOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDRUG
-mi estimate, or: svy:logit GCSOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDRUG
+foreach ST in FCINT FCTVH FCCOM FCSOM GCTVH GCCOM GCSOM{
+mi estimate, or: svy:logit ST i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.MH}
 
-mi estimate, or: svy:logit FCINT i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.MH
-mi estimate, or: svy:logit FCTVH i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.MH
-mi estimate, or: svy:logit FCCOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.MH
-mi estimate, or: svy:logit FCSOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.MH
-mi estimate, or: svy:logit GCTVH i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.MH
-mi estimate, or: svy:logit GCCOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.MH
-mi estimate, or: svy:logit GCSOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.MH
+foreach ST in FCINT FCTVH FCCOM FCSOM GCTVH GCCOM GCSOM{
+mi estimate, or: svy:logit ST i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PFORC}
 
-mi estimate, or: svy:logit FCINT i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PFORC
-mi estimate, or: svy:logit FCTVH i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PFORC
-mi estimate, or: svy:logit FCCOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PFORC
-mi estimate, or: svy:logit FCSOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PFORC
-mi estimate, or: svy:logit GCTVH i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PFORC
-mi estimate, or: svy:logit GCCOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PFORC
-mi estimate, or: svy:logit GCSOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PFORC
-
-mi estimate, or: svy:logit FCINT i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PFCIN
-mi estimate, or: svy:logit FCTVH i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PFCIN
-mi estimate, or: svy:logit FCCOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PFCIN
-mi estimate, or: svy:logit FCSOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PFCIN
-mi estimate, or: svy:logit GCTVH i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PFCIN
-mi estimate, or: svy:logit GCCOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PFCIN
-mi estimate, or: svy:logit GCSOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PFCIN
-
-mi estimate, or: svy:logit FCINT i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.DOEDP
-mi estimate, or: svy:logit FCTVH i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.DOEDP
-mi estimate, or: svy:logit FCCOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.DOEDP
-mi estimate, or: svy:logit FCSOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.DOEDP
-mi estimate, or: svy:logit GCTVH i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.DOEDP
-mi estimate, or: svy:logit GCCOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.DOEDP
-mi estimate, or: svy:logit GCSOM i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.DOEDP
-
-mi passive: gen GENDACE=FCCSEX00*ACEGROUP3
-mi estimate, or: svy:logit FCINT i.ACEGROUP3 i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW GENDACE
-mi estimate, or: svy:logit FCTVH i.ACEGROUP3 i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW GENDACE
-mi estimate, or: svy:logit FCCOM i.ACEGROUP3 i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW GENDACE
-mi estimate, or: svy:logit FCSOM i.ACEGROUP3 i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW GENDACE
-mi estimate, or: svy:logit GCTVH i.ACEGROUP3 i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW GENDACE
-mi estimate, or: svy:logit GCCOM i.ACEGROUP3 i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW GENDACE
-mi estimate, or: svy:logit GCSOM i.ACEGROUP3 i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW GENDACE
-
-mi estimate, or: svy:logit FCINT i.DOEDP i.FCCSEX00 i.FDCE2 i.FDNVQ6 i.DD05SS i.DROOW GENDACE
-mi estimate, or: svy:logit FCTVH i.DOEDP i.FCCSEX00 i.FDCE2 i.FDNVQ6 i.DD05SS i.DROOW GENDACE
-mi estimate, or: svy:logit FCCOM i.DOEDP i.FCCSEX00 i.FDCE2 i.FDNVQ6 i.DD05SS i.DROOW GENDACE
-mi estimate, or: svy:logit FCSOM i.DOEDP i.FCCSEX00 i.FDCE2 i.FDNVQ6 i.DD05SS i.DROOW GENDACE
-mi estimate, or: svy:logit GCTVH i.DOEDP i.FCCSEX00 i.FDCE2 i.FDNVQ6 i.DD05SS i.DROOW GENDACE
-mi estimate, or: svy:logit GCCOM i.DOEDP i.FCCSEX00 i.FDCE2 i.FDNVQ6 i.DD05SS i.DROOW GENDACE
-mi estimate, or: svy:logit GCSOM i.DOEDP i.FCCSEX00 i.FDCE2 i.FDNVQ6 i.DD05SS i.DROOW GENDACE
-
-
-mi estimate, or: svy:logit FCINT i.ACEGROUP3 GENDACE
-mi estimate, or: svy:logit FCTVH i.ACEGROUP3 GENDACE
-mi estimate, or: svy:logit FCCOM i.ACEGROUP3 GENDACE
-mi estimate, or: svy:logit FCSOM i.ACEGROUP3 GENDACE
-mi estimate, or: svy:logit GCTVH i.ACEGROUP3 GENDACE 
-mi estimate, or: svy:logit GCCOM i.ACEGROUP3 GENDACE 
-mi estimate, or: svy:logit GCSOM i.ACEGROUP3 GENDACE 
-mi estimate, or: svy:logit FCINT i.ACEGROUP3 GENDACE 
-
-mi estimate, or: svy:logit FCINT i.FDNVQ4 if FCCSEX00==0
-mi estimate, or: svy:logit FCTVH i.FDNVQ4 if FCCSEX00==0
-mi estimate, or: svy:logit FCCOM i.FDNVQ4 if FCCSEX00==0
-mi estimate, or: svy:logit FCSOM i.FDNVQ4 if FCCSEX00==0
-mi estimate, or: svy:logit GCTVH i.FDNVQ4 if FCCSEX00==0
-mi estimate, or: svy:logit GCCOM i.FDNVQ4 if FCCSEX00==0
-mi estimate, or: svy:logit GCSOM i.FDNVQ4 if FCCSEX00==0
-
-mi estimate, or: svy:logit FCINT i.FDNVQ4 if FCCSEX00==1
-mi estimate, or: svy:logit FCTVH i.FDNVQ4 if FCCSEX00==1
-mi estimate, or: svy:logit FCCOM i.FDNVQ4 if FCCSEX00==1
-mi estimate, or: svy:logit FCSOM i.FDNVQ4 if FCCSEX00==1
-mi estimate, or: svy:logit GCTVH i.FDNVQ4 if FCCSEX00==1
-mi estimate, or: svy:logit GCCOM i.FDNVQ4 if FCCSEX00==1
-mi estimate, or: svy:logit GCSOM i.FDNVQ4 if FCCSEX00==1
-
-mi estimate, or: svy:logit FCINT i.PALDR if FCCSEX00==0
-mi estimate, or: svy:logit FCTVH i.PALDR if FCCSEX00==0
-mi estimate, or: svy:logit FCCOM i.PALDR if FCCSEX00==0
-mi estimate, or: svy:logit FCSOM i.PALDR if FCCSEX00==0
-mi estimate, or: svy:logit GCTVH i.PALDR if FCCSEX00==0
-mi estimate, or: svy:logit GCCOM i.PALDR if FCCSEX00==0
-mi estimate, or: svy:logit GCSOM i.PALDR if FCCSEX00==0
-
-mi estimate, or: svy:logit FCINT i.PALDR if FCCSEX00==1
-mi estimate, or: svy:logit FCTVH i.PALDR if FCCSEX00==1
-mi estimate, or: svy:logit FCCOM i.PALDR if FCCSEX00==1
-mi estimate, or: svy:logit FCSOM i.PALDR if FCCSEX00==1
-mi estimate, or: svy:logit GCTVH i.PALDR if FCCSEX00==1
-mi estimate, or: svy:logit GCCOM i.PALDR if FCCSEX00==1
-mi estimate, or: svy:logit GCSOM i.PALDR if FCCSEX00==1
-
-mi estimate, or: svy:logit FCINT i.ACEGROUP3 if FCCSEX00==0
-mi estimate, or: svy:logit FCTVH i.ACEGROUP3 if FCCSEX00==0
-mi estimate, or: svy:logit FCCOM i.ACEGROUP3 if FCCSEX00==0
-mi estimate, or: svy:logit FCSOM i.ACEGROUP3 if FCCSEX00==0
-mi estimate, or: svy:logit GCTVH i.ACEGROUP3 if FCCSEX00==0
-mi estimate, or: svy:logit GCCOM i.ACEGROUP3 if FCCSEX00==0
-mi estimate, or: svy:logit GCSOM i.ACEGROUP3 if FCCSEX00==0
-
-
-mi estimate, or: svy:logit FCINT i.ACEGROUP3 if FCCSEX00==1
-mi estimate, or: svy:logit FCTVH i.ACEGROUP3 if FCCSEX00==1
-mi estimate, or: svy:logit FCCOM i.ACEGROUP3 if FCCSEX00==1
-mi estimate, or: svy:logit FCSOM i.ACEGROUP3 if FCCSEX00==1
-mi estimate, or: svy:logit GCTVH i.ACEGROUP3 if FCCSEX00==1
-mi estimate, or: svy:logit GCCOM i.ACEGROUP3 if FCCSEX00==1
-mi estimate, or: svy:logit GCSOM i.ACEGROUP3 if FCCSEX00==1
-
-mi estimate, or: svy:logit FCINT i.ACEGROUP3 i.FDCE2 if FCCSEX00==0
-mi estimate, or: svy:logit FCTVH i.ACEGROUP3 i.FDCE2 if FCCSEX00==0
-mi estimate, or: svy:logit FCCOM i.ACEGROUP3 i.FDCE2 if FCCSEX00==0
-mi estimate, or: svy:logit FCSOM i.ACEGROUP3 i.FDCE2 if FCCSEX00==0
-mi estimate, or: svy:logit GCTVH i.ACEGROUP3 i.FDCE2 if FCCSEX00==0
-mi estimate, or: svy:logit GCCOM i.ACEGROUP3 i.FDCE2 if FCCSEX00==0
-mi estimate, or: svy:logit GCSOM i.ACEGROUP3 i.FDCE2 if FCCSEX00==0
-
-mi estimate, or: svy:logit FCINT i.ACEGROUP3 i.FDCE2 if FCCSEX00==1
-mi estimate, or: svy:logit FCTVH i.ACEGROUP3 i.FDCE2 if FCCSEX00==1
-mi estimate, or: svy:logit FCCOM i.ACEGROUP3 i.FDCE2 if FCCSEX00==1
-mi estimate, or: svy:logit FCSOM i.ACEGROUP3 i.FDCE2 if FCCSEX00==1
-mi estimate, or: svy:logit GCTVH i.ACEGROUP3 i.FDCE2 if FCCSEX00==1
-mi estimate, or: svy:logit GCCOM i.ACEGROUP3 i.FDCE2 if FCCSEX00==1
-mi estimate, or: svy:logit GCSOM i.ACEGROUP3 i.FDCE2 if FCCSEX00==1
-
-mi estimate, or: svy:logit FCINT i.ACEGROUP3 i.DOEDP i.FDCE2 if FCCSEX00==0
-mi estimate, or: svy:logit FCTVH i.ACEGROUP3 i.DOEDP i.FDCE2 if FCCSEX00==0
-mi estimate, or: svy:logit FCCOM i.ACEGROUP3 i.DOEDP i.FDCE2 if FCCSEX00==0
-mi estimate, or: svy:logit FCSOM i.ACEGROUP3 i.DOEDP i.FDCE2 if FCCSEX00==0
-mi estimate, or: svy:logit GCTVH i.ACEGROUP3 i.DOEDP i.FDCE2 if FCCSEX00==0
-mi estimate, or: svy:logit GCCOM i.ACEGROUP3 i.DOEDP i.FDCE2 if FCCSEX00==0
-mi estimate, or: svy:logit GCSOM i.ACEGROUP3 i.DOEDP i.FDCE2 if FCCSEX00==0
-
-mi estimate, or: svy:logit FCINT i.ACEGROUP3 i.DOEDP i.FDCE2 if FCCSEX00==1
-mi estimate, or: svy:logit FCTVH i.ACEGROUP3 i.DOEDP i.FDCE2 if FCCSEX00==1
-mi estimate, or: svy:logit FCCOM i.ACEGROUP3 i.DOEDP i.FDCE2 if FCCSEX00==1
-mi estimate, or: svy:logit FCSOM i.ACEGROUP3 i.DOEDP i.FDCE2 if FCCSEX00==1
-mi estimate, or: svy:logit GCTVH i.ACEGROUP3 i.DOEDP i.FDCE2 if FCCSEX00==1
-mi estimate, or: svy:logit GCCOM i.ACEGROUP3 i.DOEDP i.FDCE2 if FCCSEX00==1
-mi estimate, or: svy:logit GCSOM i.ACEGROUP3 i.DOEDP i.FDCE2 if FCCSEX00==1
-
-mi estimate, or: svy:logit FCINT i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.FDCE2 if FCCSEX00==0
-mi estimate, or: svy:logit FCTVH i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.FDCE2 if FCCSEX00==0
-mi estimate, or: svy:logit FCCOM i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.FDCE2 if FCCSEX00==0
-mi estimate, or: svy:logit FCSOM i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.FDCE2 if FCCSEX00==0
-mi estimate, or: svy:logit GCTVH i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.FDCE2 if FCCSEX00==0
-mi estimate, or: svy:logit GCCOM i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.FDCE2 if FCCSEX00==0
-mi estimate, or: svy:logit GCSOM i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.FDCE2 if FCCSEX00==0
-
-mi estimate, or: svy:logit FCINT i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.FDCE2 if FCCSEX00==1
-mi estimate, or: svy:logit FCTVH i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.FDCE2 if FCCSEX00==1
-mi estimate, or: svy:logit FCCOM i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.FDCE2 if FCCSEX00==1
-mi estimate, or: svy:logit FCSOM i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.FDCE2 if FCCSEX00==1
-mi estimate, or: svy:logit GCTVH i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.FDCE2 if FCCSEX00==1
-mi estimate, or: svy:logit GCCOM i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.FDCE2 if FCCSEX00==1
-mi estimate, or: svy:logit GCSOM i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.FDCE2 if FCCSEX00==1
-
-
-mi estimate, or: svy:logit FCINT i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.DD05SS i.FDCE2 if FCCSEX00==0
-mi estimate, or: svy:logit FCTVH i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.DD05SS i.FDCE2 if FCCSEX00==0
-mi estimate, or: svy:logit FCCOM i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.DD05SS i.FDCE2 if FCCSEX00==0
-mi estimate, or: svy:logit FCSOM i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.DD05SS i.FDCE2 if FCCSEX00==0
-mi estimate, or: svy:logit GCTVH i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.DD05SS i.FDCE2 if FCCSEX00==0
-mi estimate, or: svy:logit GCCOM i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.DD05SS i.FDCE2 if FCCSEX00==0
-mi estimate, or: svy:logit GCSOM i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.DD05SS i.FDCE2 if FCCSEX00==0
-
-mi estimate, or: svy:logit FCINT i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.DD05SS i.FDCE2 if FCCSEX00==1
-mi estimate, or: svy:logit FCTVH i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.DD05SS i.FDCE2 if FCCSEX00==1
-mi estimate, or: svy:logit FCCOM i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.DD05SS i.FDCE2 if FCCSEX00==1
-mi estimate, or: svy:logit FCSOM i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.DD05SS i.FDCE2 if FCCSEX00==1
-mi estimate, or: svy:logit GCTVH i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.DD05SS i.FDCE2 if FCCSEX00==1
-mi estimate, or: svy:logit GCCOM i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.DD05SS i.FDCE2 if FCCSEX00==1
-mi estimate, or: svy:logit GCSOM i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.DD05SS i.FDCE2 if FCCSEX00==1
-
-mi estimate, or: svy:logit FCINT i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.DD05SS i.DROOW i.FDCE2 if FCCSEX00==0
-mi estimate, or: svy:logit FCTVH i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.DD05SS i.DROOW i.FDCE2 if FCCSEX00==0
-mi estimate, or: svy:logit FCCOM i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.DD05SS i.DROOW i.FDCE2 if FCCSEX00==0
-mi estimate, or: svy:logit FCSOM i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.DD05SS i.DROOW i.FDCE2 if FCCSEX00==0
-mi estimate, or: svy:logit GCTVH i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.DD05SS i.DROOW i.FDCE2 if FCCSEX00==0
-mi estimate, or: svy:logit GCCOM i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.DD05SS i.DROOW i.FDCE2 if FCCSEX00==0
-mi estimate, or: svy:logit GCSOM i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.DD05SS i.DROOW i.FDCE2 if FCCSEX00==0
-
-mi estimate, or: svy:logit FCINT i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.DD05SS i.DROOW i.FDCE2 if FCCSEX00==1
-mi estimate, or: svy:logit FCTVH i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.DD05SS i.DROOW i.FDCE2 if FCCSEX00==1
-mi estimate, or: svy:logit FCCOM i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.DD05SS i.DROOW i.FDCE2 if FCCSEX00==1
-mi estimate, or: svy:logit FCSOM i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.DD05SS i.DROOW i.FDCE2 if FCCSEX00==1
-mi estimate, or: svy:logit GCTVH i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.DD05SS i.DROOW i.FDCE2 if FCCSEX00==1
-mi estimate, or: svy:logit GCCOM i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.DD05SS i.DROOW i.FDCE2 if FCCSEX00==1
-mi estimate, or: svy:logit GCSOM i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.DD05SS i.DROOW i.FDCE2 if FCCSEX00==1
-
-
-mi estimate, or: svy:logit FCINT i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.DD05SS i.DROOW i.FDCE2 
-mi estimate, or: svy:logit FCTVH i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.DD05SS i.DROOW i.FDCE2
-mi estimate, or: svy:logit FCCOM i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.DD05SS i.DROOW i.FDCE2
-mi estimate, or: svy:logit FCSOM i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.DD05SS i.DROOW i.FDCE2
-mi estimate, or: svy:logit GCTVH i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.DD05SS i.DROOW i.FDCE2
-mi estimate, or: svy:logit GCCOM i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.DD05SS i.DROOW i.FDCE2
-mi estimate, or: svy:logit GCSOM i.ACEGROUP3 i.DOEDP i.FDNVQ4 i.DD05SS i.DROOW i.FDCE2
+foreach ST in FCINT FCTVH FCCOM FCSOM GCTVH GCCOM GCSOM{
+mi estimate, or: svy:logit ST i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PFCIN}
