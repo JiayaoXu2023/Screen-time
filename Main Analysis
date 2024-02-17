@@ -2,121 +2,153 @@ mi svyset SPTN00 [pweight=WEIGHT2], strata(PTTYPE2) fpc(NH2)
 
 **PDISM PDISH bully PALDR PDRUG MH PFORC PFCIN
 foreach ACE in i.PDISM i.PDISH i.bully i.PALDR i.PDRUG i.MH i.PFORC i.PFCIN i.ACEGROUP3 {
-mi estimate, or: svy:logit FCINT 'ACE' i.FCCSEX00 i.FDCE2 i.ADOEDP00}
+mi estimate, or: svy:logit FCINT `ACE' i.FCCSEX00 i.FDCE2 i.ADOEDP00
+}
 
 foreach ACE in i.PDISM i.PDISH i.bully i.PALDR i.PDRUG i.MH i.PFORC i.PFCIN i.ACEGROUP3 {
-mi estimate, or: svy:logit FCTVH 'ACE' i.FCCSEX00 i.FDCE2 i.ADOEDP00}
+mi estimate, or: svy:logit FCTVH `ACE' i.FCCSEX00 i.FDCE2 i.ADOEDP00
+}
 
 foreach ACE in i.PDISM i.PDISH i.bully i.PALDR i.PDRUG i.MH i.PFORC i.PFCIN i.ACEGROUP3 {
-mi estimate, or: svy:logit FCCOM 'ACE' i.FCCSEX00 i.FDCE2 i.ADOEDP00}
+mi estimate, or: svy:logit FCCOM `ACE' i.FCCSEX00 i.FDCE2 i.ADOEDP00
+}
 
 foreach ACE in i.PDISM i.PDISH i.bully i.PALDR i.PDRUG i.MH i.PFORC i.PFCIN i.ACEGROUP3 {
-mi estimate, or: svy:logit FCSOM 'ACE' i.FCCSEX00 i.FDCE2 i.ADOEDP00}
+mi estimate, or: svy:logit FCSOM `ACE' i.FCCSEX00 i.FDCE2 i.ADOEDP00
+}
 
 foreach ACE in i.PDISM i.PDISH i.bully i.PALDR i.PDRUG i.MH i.PFORC i.PFCIN i.ACEGROUP3 {
-mi estimate, or: svy:logit GCTVH 'ACE' i.FCCSEX00 i.FDCE2 i.ADOEDP00}
+mi estimate, or: svy:logit GCTVH `ACE' i.FCCSEX00 i.FDCE2 i.ADOEDP00
+}
 
 foreach ACE in i.PDISM i.PDISH i.bully i.PALDR i.PDRUG i.MH i.PFORC i.PFCIN i.ACEGROUP3 {
-mi estimate, or: svy:logit GCCOM 'ACE' i.FCCSEX00 i.FDCE2 i.ADOEDP00}
+mi estimate, or: svy:logit GCCOM `ACE' i.FCCSEX00 i.FDCE2 i.ADOEDP00
+}
 
 foreach ACE in i.PDISM i.PDISH i.bully i.PALDR i.PDRUG i.MH i.PFORC i.PFCIN i.ACEGROUP3 {
-mi estimate, or: svy:logit GCSOM 'ACE' i.FCCSEX00 i.FDCE2 i.ADOEDP00}
+mi estimate, or: svy:logit GCSOM `ACE' i.FCCSEX00 i.FDCE2 i.ADOEDP00
+}
 
 **PDISM PDISH bully PALDR PDRUG MH PFORC PFCIN  **ADOEDP00 FDNVQ6 DD05SS DROOW
 foreach ACE in i.PDISM i.PDISH i.bully i.PALDR i.PDRUG i.MH i.PFORC i.PFCIN i.ACEGROUP3 {
-mi estimate, or: svy:logit FCINT 'ACE' i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW}
+mi estimate, or: svy:logit FCINT `ACE' i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
+}
 
 foreach ACE in i.PDISM i.PDISH i.bully i.PALDR i.PDRUG i.MH i.PFORC i.PFCIN i.ACEGROUP3 {
-mi estimate, or: svy:logit FCTVH 'ACE' i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW}
+mi estimate, or: svy:logit FCTVH `ACE' i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
+}
 
 foreach ACE in i.PDISM i.PDISH i.bully i.PALDR i.PDRUG i.MH i.PFORC i.PFCIN i.ACEGROUP3 {
-mi estimate, or: svy:logit FCCOM 'ACE' i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW}
+mi estimate, or: svy:logit FCCOM `ACE' i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
+}
 
 foreach ACE in i.PDISM i.PDISH i.bully i.PALDR i.PDRUG i.MH i.PFORC i.PFCIN i.ACEGROUP3 {
-mi estimate, or: svy:logit FCSOM 'ACE' i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW}
+mi estimate, or: svy:logit FCSOM `ACE' i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
+}
 
 foreach ACE in i.PDISM i.PDISH i.bully i.PALDR i.PDRUG i.MH i.PFORC i.PFCIN i.ACEGROUP3 {
-mi estimate, or: svy:logit GCTVH 'ACE' i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW}
+mi estimate, or: svy:logit GCTVH `ACE' i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
+}
 
 foreach ACE in i.PDISM i.PDISH i.bully i.PALDR i.PDRUG i.MH i.PFORC i.PFCIN i.ACEGROUP3 {
-mi estimate, or: svy:logit GCCOM 'ACE' i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW}
+mi estimate, or: svy:logit GCCOM `ACE' i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
+}
 
 foreach ACE in i.PDISM i.PDISH i.bully i.PALDR i.PDRUG i.MH i.PFORC i.PFCIN i.ACEGROUP3 {
-mi estimate, or: svy:logit GCSOM 'ACE' i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW}
+mi estimate, or: svy:logit GCSOM `ACE' i.FCCSEX00 i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW
+}
 
 foreach ST in FCINT FCTVH FCCOM FCSOM GCTVH GCCOM GCSOM{
-mi estimate, dots post: svy:logit 'ST' i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.ACEGROUP3
+mi estimate, dots post: svy:logit `ST' i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.ACEGROUP3
 lincom 1.ACEGROUP3+ 1.ACEGROUP3#1.FCCSEX00, or
 lincom 2.ACEGROUP3+ 2.ACEGROUP3#1.FCCSEX00, or
 lincom 3.ACEGROUP3+ 3.ACEGROUP3#1.FCCSEX00, or
 lincom 1.ACEGROUP3+ 1.ACEGROUP3#2.FCCSEX00, or
 lincom 2.ACEGROUP3+ 2.ACEGROUP3#2.FCCSEX00, or
-lincom 3.ACEGROUP3+ 3.ACEGROUP3#2.FCCSEX00, or}
+lincom 3.ACEGROUP3+ 3.ACEGROUP3#2.FCCSEX00, or
+}
 
 foreach ST in FCINT FCTVH FCCOM FCSOM GCTVH GCCOM GCSOM{
-mi estimate, dots post: svy:logit 'ST' i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDISM
+mi estimate, dots post: svy:logit `ST' i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDISM
 lincom 1.PDISM+ 1.PDISM#1.FCCSEX00, or
-lincom 1.PDISM+ 1.PDISM#2.FCCSEX00, or}
+lincom 1.PDISM+ 1.PDISM#2.FCCSEX00, or
+}
 
 foreach ST in FCINT FCTVH FCCOM FCSOM GCTVH GCCOM GCSOM{
-mi estimate, dots post: svy:logit 'ST' i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDISH
+mi estimate, dots post: svy:logit `ST' i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDISH
 lincom 1.PDISH+ 1.PDISH#1.FCCSEX00, or
-lincom 1.PDISH+ 1.PDISH#2.FCCSEX00, or}
+lincom 1.PDISH+ 1.PDISH#2.FCCSEX00, or
+}
 
 foreach ST in FCINT FCTVH FCCOM FCSOM GCTVH GCCOM GCSOM{
-mi estimate, dots post: svy:logit 'ST' i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.bully
+mi estimate, dots post: svy:logit `ST' i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.bully
 lincom 1.bully+ 1.bully#1.FCCSEX00, or
-lincom 1.bully+ 1.bully#2.FCCSEX00, or}
+lincom 1.bully+ 1.bully#2.FCCSEX00, or
+}
 
 foreach ST in FCINT FCTVH FCCOM FCSOM GCTVH GCCOM GCSOM{
-mi estimate, dots post: svy:logit 'ST' i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PALDR
+mi estimate, dots post: svy:logit `ST' i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PALDR
 lincom 1.PALDR+ 1.PALDR#1.FCCSEX00, or
-lincom 1.PALDR+ 1.PALDR#2.FCCSEX00, or}
+lincom 1.PALDR+ 1.PALDR#2.FCCSEX00, or
+}
 
 foreach ST in FCINT FCTVH FCCOM FCSOM GCTVH GCCOM GCSOM{
-mi estimate, dots post: svy:logit 'ST' i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDRUG
+mi estimate, dots post: svy:logit `ST' i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDRUG
 lincom 1.PDRUG+ 1.PDRUG#1.FCCSEX00, or
-lincom 1.PDRUG+ 1.PDRUG#2.FCCSEX00, or}
+lincom 1.PDRUG+ 1.PDRUG#2.FCCSEX00, or
+}
 
 foreach ST in FCINT FCTVH FCCOM FCSOM GCTVH GCCOM GCSOM{
-mi estimate, dots post: svy:logit 'ST' i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.MH
+mi estimate, dots post: svy:logit `ST' i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.MH
 lincom 1.MH+ 1.MH#1.FCCSEX00, or
-lincom 1.MH+ 1.MH#2.FCCSEX00, or}
+lincom 1.MH+ 1.MH#2.FCCSEX00, or
+}
 
 foreach ST in FCINT FCTVH FCCOM FCSOM GCTVH GCCOM GCSOM{
-mi estimate, dots post: svy:logit 'ST' i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PFORC
+mi estimate, dots post: svy:logit `ST' i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PFORC
 lincom 1.PFORC+ 1.PFORC#1.FCCSEX00, or
-lincom 1.PFORC+ 1.PFORC#2.FCCSEX00, or}
+lincom 1.PFORC+ 1.PFORC#2.FCCSEX00, or
+}
 
 foreach ST in FCINT FCTVH FCCOM FCSOM GCTVH GCCOM GCSOM{
-mi estimate, dots post: svy:logit 'ST' i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PFCIN
+mi estimate, dots post: svy:logit `ST' i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PFCIN
 lincom 1.PFCIN+ 1.PFCIN#1.FCCSEX00, or
-lincom 1.PFCIN+ 1.PFCIN#2.FCCSEX00, or}
+lincom 1.PFCIN+ 1.PFCIN#2.FCCSEX00, or
+}
 
 **PDISM PDISH bully PALDR PDRUG MH PFORC PFCIN ACEGROUP3 DOEDP
 foreach ST in FCINT FCTVH FCCOM FCSOM GCTVH GCCOM GCSOM{
-mi estimate, or: svy:logit ST i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.ACEGROUP3}
+mi estimate, or: svy:logit `ST' i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.ACEGROUP3
+}
 
 foreach ST in FCINT FCTVH FCCOM FCSOM GCTVH GCCOM GCSOM{
-mi estimate, or: svy:logit ST i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDISM}
+mi estimate, or: svy:logit `ST' i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDISM
+}
 
 foreach ST in FCINT FCTVH FCCOM FCSOM GCTVH GCCOM GCSOM{
-mi estimate, or: svy:logit ST i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDISH}
+mi estimate, or: svy:logit `ST' i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDISH
+}
 
 foreach ST in FCINT FCTVH FCCOM FCSOM GCTVH GCCOM GCSOM{
-mi estimate, or: svy:logit ST i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.bully}
+mi estimate, or: svy:logit `ST' i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.bully
+}
 
 foreach ST in FCINT FCTVH FCCOM FCSOM GCTVH GCCOM GCSOM{
-mi estimate, or: svy:logit ST i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PALDR}
+mi estimate, or: svy:logit `ST' i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PALDR
+}
 
 foreach ST in FCINT FCTVH FCCOM FCSOM GCTVH GCCOM GCSOM{
-mi estimate, or: svy:logit ST i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDRUG}
+mi estimate, or: svy:logit `ST' i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PDRUG
+}
 
 foreach ST in FCINT FCTVH FCCOM FCSOM GCTVH GCCOM GCSOM{
-mi estimate, or: svy:logit ST i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.MH}
+mi estimate, or: svy:logit `ST' i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.MH
+}
 
 foreach ST in FCINT FCTVH FCCOM FCSOM GCTVH GCCOM GCSOM{
-mi estimate, or: svy:logit ST i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PFORC}
+mi estimate, or: svy:logit `ST' i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PFORC
+}
 
 foreach ST in FCINT FCTVH FCCOM FCSOM GCTVH GCCOM GCSOM{
-mi estimate, or: svy:logit ST i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PFCIN}
+mi estimate, or: svy:logit `ST' i.FDCE2 i.ADOEDP00 i.FDNVQ6 i.DD05SS i.DROOW i.FCCSEX00##i.PFCIN
+}
